@@ -1,0 +1,9 @@
+[
+	{ "keys": ["enter"], "command": "ps_evaluate", "context":
+		[
+			{ "key": "selector", "operand": "source.psconsole" }
+		]
+	},
+
+	{ "keys": ["ctrl+k", "ctrl+p"], "command": "new_ps_console" }
+]
