@@ -1,0 +1,11 @@
+%YAML 1.2
+---
+
+name: PowerShellConsole
+scope: source.psconsole
+hidden: false
+
+contexts:
+  main:
+    - match: ">"
+      scope: "prompt.psconsole"
